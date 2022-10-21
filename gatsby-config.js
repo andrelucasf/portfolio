@@ -3,5 +3,8 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "André Lucas Portfolio",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-material-ui`
+  ]
 };

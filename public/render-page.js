@@ -4736,24 +4736,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!******************************************************************************************!*\
-  !*** external "/home/andrelucasf/Documentos/portfolio/node_modules/react-dom/server.js" ***!
-  \******************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** external "/Users/andrelucasf/Documentos/portfolio/node_modules/react-dom/server.js" ***!
+  \*******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/home/andrelucasf/Documentos/portfolio/node_modules/react-dom/server.js");
+module.exports = require("/Users/andrelucasf/Documentos/portfolio/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!*************************************************************************************!*\
-  !*** external "/home/andrelucasf/Documentos/portfolio/node_modules/react/index.js" ***!
-  \*************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** external "/Users/andrelucasf/Documentos/portfolio/node_modules/react/index.js" ***!
+  \**************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/home/andrelucasf/Documentos/portfolio/node_modules/react/index.js");
+module.exports = require("/Users/andrelucasf/Documentos/portfolio/node_modules/react/index.js");
 
 /***/ })
 
