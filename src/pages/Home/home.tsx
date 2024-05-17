@@ -1,6 +1,6 @@
-import { Paper } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
-import About from "../About/about";
+import About from "../../components/About/about";
+import Experience from "../../components/Experience/experience";
 
 function Home() {
   return (
@@ -10,27 +10,7 @@ function Home() {
       </Grid>
 
       <Grid xs={8} overflow="scroll">
-        <Paper
-          style={{
-            height: "100%",
-            overflowY: "auto",
-            padding: "20px",
-            background: "#00fefe",
-            maxHeight: "300px",
-          }}
-        >
-          <h2>Parte Rolável</h2>
-        </Paper>
-        <Paper
-          style={{
-            height: "100%",
-            overflowY: "auto",
-            padding: "20px",
-            background: "#aaffa7",
-          }}
-        >
-          <h2>Parte Rolável</h2>
-        </Paper>
+        <Experience />
       </Grid>
     </Grid>
   );

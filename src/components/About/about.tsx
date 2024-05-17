@@ -14,7 +14,7 @@ function About() {
       <Typography height="auto" fontWeight="600" fontSize={45} lineHeight={1.2}>
         HI, I'M <br /> <span className="background-grey">ANDRÉ LUCAS</span>
       </Typography>
-      <Typography height="auto" color="#7a8085">
+      <Typography fontSize={16} height="auto" color="#7a8085">
         Software Engineer, based in Brazil, with more than 4 years of
         experience. My specialization covers technologies such as Javascript,
         Typescript, Node.js and React. I value code quality and prioritize

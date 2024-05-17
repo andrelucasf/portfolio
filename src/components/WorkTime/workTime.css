@@ -1,0 +1,9 @@
+.work-time {
+  background: #00000025;
+  color: #000000;
+  line-height: 40px;
+  max-width: 200;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "dateStart": "Oct 2022",
+    "dateEnd": "the moment",
+    "icon": "FaShirt",
+    "company": "CIA. HERING",
+    "role": "Software Engineer",
+    "description": "Contribution to the development of resources and improvements for strategic projects, positively impacting more than 789 franchises."
+  },
+  {
+    "dateStart": "Dec 2021",
+    "dateEnd": "Oct 2022",
+    "icon": "FaRegMoneyBill1",
+    "company": "ATENA",
+    "role": "Full Stack Developer",
+    "description": "Collaborated on the Kikkin project, an innovative Banking as a Service, representing one of the biggest professional challenges."
+  },
+  {
+    "dateStart": "Jan 2019",
+    "dateEnd": "Dec 2021",
+    "icon": "FaRegMoneyBill1",
+    "company": "Freelancer",
+    "role": "Software Developer",
+    "description": "As a Freelancer, I focused on developing and maintaining websites, using Wordpress, JavaScript, ReactJS, HTML, CSS and Bootstrap."
+  }
+]
