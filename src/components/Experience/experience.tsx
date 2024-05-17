@@ -11,8 +11,6 @@ import WorkTime from "../WorkTime/workTime";
 import "./../../App.css";
 
 const green = "#aaffa7";
-const blue = "#00fefefe";
-
 interface ExperienceData {
   dateStart: string;
   dateEnd: string;
