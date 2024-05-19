@@ -6,7 +6,7 @@ import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
 import { PiFileSql } from "react-icons/pi";
 import { SiNestjs } from "react-icons/si";
 
-const blue = "#00fefefe";
+const blue = "#81fbff";
 
 function Skills() {
   return (

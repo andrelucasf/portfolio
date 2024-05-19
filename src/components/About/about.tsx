@@ -2,15 +2,12 @@ import { Avatar, Box, Link, Typography } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { GitHub, WhatsApp } from "@mui/icons-material";
 import "./../../App.css";
+import andre from "../../assets/img/andre.png";
 
 function About() {
   return (
     <Box gap={2} display="flex" justifyContent="center" flexDirection="column">
-      <Avatar
-        alt="André Lucas"
-        src="src/assets/img/andre.png"
-        sx={{ width: 200, height: 200 }}
-      />
+      <Avatar alt="André Lucas" src={andre} sx={{ width: 200, height: 200 }} />
       <Typography height="auto" fontWeight="600" fontSize={45} lineHeight={1.2}>
         HI, I'M <br /> <span className="background-grey">ANDRÉ LUCAS</span>
       </Typography>

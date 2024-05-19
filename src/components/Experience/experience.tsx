@@ -9,6 +9,7 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import { FaGear, FaRegMoneyBill1, FaShirt } from "react-icons/fa6";
 import WorkTime from "../WorkTime/workTime";
 import "./../../App.css";
+import experiencesJson from "../../assets/experiences.json";
 
 const green = "#aaffa7";
 interface ExperienceData {
@@ -30,10 +31,7 @@ function Experience() {
   const [experiences, setExperiences] = useState<ExperienceData[]>([]);
 
   useEffect(() => {
-    fetch("/src/assets/experiences.json")
-      .then((response) => response.json())
-      .then((data) => setExperiences(data))
-      .catch((error) => console.error("Error fetching data:", error));
+    setExperiences(experiencesJson);
   }, []);
 
   return (
