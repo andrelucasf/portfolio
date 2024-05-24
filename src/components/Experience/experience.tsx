@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem, { timelineItemClasses } from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -13,7 +13,6 @@ import experiencesJson from "../../assets/experiences.json";
 import "./experience.css";
 import { isMobile } from "react-device-detect";
 
-const green = "#aaffa7";
 interface ExperienceData {
   dateStart: string;
   dateEnd: string;

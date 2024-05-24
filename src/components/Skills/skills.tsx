@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import "./../../App.css";
 import { FaAws, FaDocker, FaGit, FaNode, FaReact } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -6,8 +6,6 @@ import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
 import { PiFileSql } from "react-icons/pi";
 import { SiNestjs } from "react-icons/si";
 import "./skills.css";
-
-// const blue = "#81fbff";
 
 function Skills() {
   return (
