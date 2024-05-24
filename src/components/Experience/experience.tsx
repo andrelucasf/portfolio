@@ -37,7 +37,13 @@ function Experience() {
 
   return (
     <div className="experience">
-      <Typography height="auto" fontWeight="600" fontSize={40} lineHeight={1.2}>
+      <Typography
+        height="auto"
+        fontWeight="600"
+        fontSize={40}
+        lineHeight={1.2}
+        variant="h2"
+      >
         EXPERIENCE
       </Typography>
       <Timeline

@@ -1,7 +1,7 @@
 import { Avatar, Box, Link, Typography } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { GitHub, WhatsApp } from "@mui/icons-material";
-import "./../../App.css";
+import "./about.css";
 import andre from "../../assets/img/andre.png";
 
 function About() {
@@ -12,10 +12,15 @@ function About() {
       justifyContent="center"
       flexDirection="column"
       padding={6}
-      // height="100%"
     >
       <Avatar alt="André Lucas" src={andre} sx={{ width: 200, height: 200 }} />
-      <Typography height="auto" fontWeight="600" fontSize={45} lineHeight={1.2}>
+      <Typography
+        height="auto"
+        fontWeight="600"
+        fontSize={45}
+        lineHeight={1.2}
+        variant="h1"
+      >
         HI, I'M <br /> <span className="background-grey">ANDRÉ LUCAS</span>
       </Typography>
       <Typography fontSize={16} height="auto" color="#7a8085">

@@ -10,7 +10,13 @@ import "./skills.css";
 function Skills() {
   return (
     <div className="skills">
-      <Typography height="auto" fontWeight="600" fontSize={40} lineHeight={1.2}>
+      <Typography
+        height="auto"
+        fontWeight="600"
+        fontSize={40}
+        lineHeight={1.2}
+        variant="h2"
+      >
         SKILLS
       </Typography>
       <div className="skills-logos">
