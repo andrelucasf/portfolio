@@ -3,17 +3,20 @@ import "./../../App.css";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkTime from "../WorkTime/workTime";
 import {
-  TimelineItem,
   TimelineSeparator,
   TimelineDot,
   TimelineConnector,
   TimelineContent,
   Timeline,
 } from "@mui/lab";
+import TimelineItem, { timelineItemClasses } from "@mui/lab/TimelineItem";
+import { isMobile } from "react-device-detect";
 
 const laranja = "#fdead2";
 
 function Education() {
+  console.log(timelineItemClasses.root);
+
   return (
     <Box padding={8} sx={{ background: laranja }} height="auto">
       <Typography
@@ -25,8 +28,17 @@ function Education() {
       >
         EDUCATION
       </Typography>
-      {/* <Box display="flex"> */}
-      <Timeline position="left">
+      <Timeline
+        position={isMobile ? "right" : "left"}
+        sx={{
+          ...(isMobile && {
+            [`& .${timelineItemClasses.root}:before`]: {
+              flex: 0,
+              padding: 0,
+            },
+          }),
+        }}
+      >
         <TimelineItem>
           <TimelineSeparator sx={{ height: "auto" }}>
             <TimelineDot sx={{ height: "auto", background: "black" }}>

@@ -1,22 +1,22 @@
-import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
 import About from "../../components/About/about";
 import Experience from "../../components/Experience/experience";
 import Skills from "../../components/Skills/skills";
 import Education from "../../components/Education/education";
+import "./home.css";
 
 function Home() {
   return (
-    <Grid container>
-      <Grid xs={4} padding={6}>
+    <div className="home-container">
+      <div className="home-left-container">
         <About />
-      </Grid>
+      </div>
 
-      <Grid xs={8} overflow="scroll">
+      <div className="home-right-container">
         <Skills />
         <Experience />
         <Education />
-      </Grid>
-    </Grid>
+      </div>
+    </div>
   );
 }
 

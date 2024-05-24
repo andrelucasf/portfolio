@@ -5,16 +5,17 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
 import { PiFileSql } from "react-icons/pi";
 import { SiNestjs } from "react-icons/si";
+import "./skills.css";
 
-const blue = "#81fbff";
+// const blue = "#81fbff";
 
 function Skills() {
   return (
-    <Box padding={8} sx={{ background: blue }} height="auto">
+    <div className="skills">
       <Typography height="auto" fontWeight="600" fontSize={40} lineHeight={1.2}>
         SKILLS
       </Typography>
-      <Box display="flex" flexDirection="row" gap={4} padding={2}>
+      <div className="skills-logos">
         <FaNode size={100} />
         <RiJavascriptFill size={80} />
         <BiLogoTypescript size={80} />
@@ -25,8 +26,8 @@ function Skills() {
         <FaDocker size={80} />
         <FaAws size={80} />
         <FaGit size={80} />
-      </Box>
-    </Box>
+      </div>
+    </div>
   );
 }
 
